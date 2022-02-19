@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: cadetblue;
+  text-align: center;
+}
+body:hover {
+  background-color: red;
+}
+.main {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 100px;
+  width: 500px;
+  font-size: 23px;
+  border: 2px solid red;
+  padding: 12px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: #bf65b2;
+  margin-left: 32%;
+}
+.main:hover {
+  cursor: pointer;
+  background-color: palegreen;
+}
+
+.input {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.sub {
+  /* widows: 500px; */
+  border-radius: 23px;
+  margin-top: 23px;
+  border: 2px solid black;
+  background-color: cyan;
+}
+.btn {
+  margin-top: 23px;
+  width: 250px;
+  padding: 7px;
+  border-radius: 23px;
+  box-shadow: 2px 2px 3px red;
+  font-weight: bold;
+  font-size: 23px;
+  background-color: royalblue;
+  color: white;
+}
+.btn:hover {
+  background-color: tomato;
+  color: black;
+  pointer-events: padding;
+  cursor: pointer;
+}
